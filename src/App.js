@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-const initialItems = [
-  { id: 1, description: "egg", quantity: 1, packed: false },
-  { id: 2, description: "apple", quantity: 2, packed: true },
-  { id: 3, description: "beef", quantity: 2, packed: false },
-];
+// const initialItems = [
+//   { id: 1, description: "egg", quantity: 1, packed: false },
+//   { id: 2, description: "apple", quantity: 2, packed: true },
+//   { id: 3, description: "beef", quantity: 2, packed: false },
+// ];
 
 export default function App() {
   const [items, setItems] = useState([]);
